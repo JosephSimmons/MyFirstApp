@@ -27,6 +27,13 @@ const styles = StyleSheet.create({
     padding: 10,
     marginVertical: 5,
     borderRadius: 5,
+    // iOS only
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.3,
+    shadowRadius: 2,
+    // Android only
+    elevation: 2,
   },
   boldtxt: {
     fontWeight: 'bold',
